@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SEFilterControl-ProgressColor_Example' do
+  pod 'SEFilterControl-ProgressColor', :path => '../'
+
+  target 'SEFilterControl-ProgressColor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
