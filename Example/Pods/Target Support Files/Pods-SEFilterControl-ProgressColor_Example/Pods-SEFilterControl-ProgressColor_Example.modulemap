@@ -1,0 +1,6 @@
+framework module Pods_SEFilterControl_ProgressColor_Example {
+  umbrella header "Pods-SEFilterControl-ProgressColor_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SEFilterControl-ProgressColor (0.1.0)
+
+DEPENDENCIES:
+  - SEFilterControl-ProgressColor (from `../`)
+
+EXTERNAL SOURCES:
+  SEFilterControl-ProgressColor:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SEFilterControl-ProgressColor: acaf5dde65bbc2fd2f5fe6724558065c229a410d
+
+PODFILE CHECKSUM: 16c8a9a8244de7c870afe5d000a6fa534953589e
+
+COCOAPODS: 1.2.0

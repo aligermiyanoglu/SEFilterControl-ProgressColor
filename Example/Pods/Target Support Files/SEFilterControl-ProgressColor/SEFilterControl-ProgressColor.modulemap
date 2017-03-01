@@ -1,0 +1,6 @@
+framework module SEFilterControl_ProgressColor {
+  umbrella header "SEFilterControl-ProgressColor-umbrella.h"
+
+  export *
+  module * { export * }
+}
