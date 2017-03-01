@@ -8,11 +8,18 @@
 
 #import "SEAppDelegate.h"
 
+#import "SEViewController.h"
+
 @implementation SEAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[SEViewController alloc] init]];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

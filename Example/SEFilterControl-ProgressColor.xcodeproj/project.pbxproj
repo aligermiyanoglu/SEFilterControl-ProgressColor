@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BE6E7FC1E66EF2D00092133 /* Sample1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6E7F11E66EF2D00092133 /* Sample1ViewController.m */; };
+		3BE6E7FD1E66EF2D00092133 /* Sample1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE6E7F21E66EF2D00092133 /* Sample1ViewController.xib */; };
+		3BE6E7FE1E66EF2D00092133 /* Sample2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6E7F41E66EF2D00092133 /* Sample2ViewController.m */; };
+		3BE6E7FF1E66EF2D00092133 /* Sample2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE6E7F51E66EF2D00092133 /* Sample2ViewController.xib */; };
+		3BE6E8001E66EF2D00092133 /* Sample3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6E7F71E66EF2D00092133 /* Sample3ViewController.m */; };
+		3BE6E8011E66EF2D00092133 /* Sample3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE6E7F81E66EF2D00092133 /* Sample3ViewController.xib */; };
+		3BE6E8021E66EF2D00092133 /* Sample4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE6E7FA1E66EF2D00092133 /* Sample4ViewController.m */; };
+		3BE6E8031E66EF2D00092133 /* Sample4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE6E7FB1E66EF2D00092133 /* Sample4ViewController.xib */; };
+		3BE6E8051E66F05800092133 /* SEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE6E8041E66F05800092133 /* SEViewController.xib */; };
+		3BE6E8071E66F0EE00092133 /* Samples.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BE6E8061E66F0EE00092133 /* Samples.plist */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,7 +31,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B639DE6D3A6532D7626A3E40 /* Pods_SEFilterControl_ProgressColor_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D686B77608A937F7BCC70D /* Pods_SEFilterControl_ProgressColor_Tests.framework */; };
 		BBD9FCF628ABD97326086C12 /* Pods_SEFilterControl_ProgressColor_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9F55D4807AC197A011035E /* Pods_SEFilterControl_ProgressColor_Example.framework */; };
 /* End PBXBuildFile section */
@@ -37,10 +46,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C43BC4B2B4790F27ECD5F96 /* SEFilterControl-ProgressColor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "SEFilterControl-ProgressColor.podspec"; path = "../SEFilterControl-ProgressColor.podspec"; sourceTree = "<group>"; };
+		0C43BC4B2B4790F27ECD5F96 /* SEFilterControl-ProgressColor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "SEFilterControl-ProgressColor.podspec"; path = "../SEFilterControl-ProgressColor.podspec"; sourceTree = "<group>"; };
 		0F72A63C9B1E2B53AEBD1D39 /* Pods-SEFilterControl-ProgressColor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEFilterControl-ProgressColor_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SEFilterControl-ProgressColor_Example/Pods-SEFilterControl-ProgressColor_Example.release.xcconfig"; sourceTree = "<group>"; };
 		14FAD30BDB8DD895A5A153C2 /* Pods-SEFilterControl-ProgressColor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEFilterControl-ProgressColor_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SEFilterControl-ProgressColor_Example/Pods-SEFilterControl-ProgressColor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1A9F55D4807AC197A011035E /* Pods_SEFilterControl_ProgressColor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SEFilterControl_ProgressColor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE6E7F01E66EF2D00092133 /* Sample1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample1ViewController.h; sourceTree = "<group>"; };
+		3BE6E7F11E66EF2D00092133 /* Sample1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample1ViewController.m; sourceTree = "<group>"; };
+		3BE6E7F21E66EF2D00092133 /* Sample1ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Sample1ViewController.xib; sourceTree = "<group>"; };
+		3BE6E7F31E66EF2D00092133 /* Sample2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample2ViewController.h; sourceTree = "<group>"; };
+		3BE6E7F41E66EF2D00092133 /* Sample2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample2ViewController.m; sourceTree = "<group>"; };
+		3BE6E7F51E66EF2D00092133 /* Sample2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Sample2ViewController.xib; sourceTree = "<group>"; };
+		3BE6E7F61E66EF2D00092133 /* Sample3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample3ViewController.h; sourceTree = "<group>"; };
+		3BE6E7F71E66EF2D00092133 /* Sample3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample3ViewController.m; sourceTree = "<group>"; };
+		3BE6E7F81E66EF2D00092133 /* Sample3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Sample3ViewController.xib; sourceTree = "<group>"; };
+		3BE6E7F91E66EF2D00092133 /* Sample4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sample4ViewController.h; sourceTree = "<group>"; };
+		3BE6E7FA1E66EF2D00092133 /* Sample4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sample4ViewController.m; sourceTree = "<group>"; };
+		3BE6E7FB1E66EF2D00092133 /* Sample4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Sample4ViewController.xib; sourceTree = "<group>"; };
+		3BE6E8041E66F05800092133 /* SEViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SEViewController.xib; sourceTree = "<group>"; };
+		3BE6E8061E66F0EE00092133 /* Samples.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Samples.plist; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SEFilterControl-ProgressColor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SEFilterControl-ProgressColor_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,11 +83,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		62E341079306468528AB78E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		62E341079306468528AB78E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7D686B77608A937F7BCC70D /* Pods_SEFilterControl_ProgressColor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SEFilterControl_ProgressColor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7C20DA392BB270EFF015ABA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B7C20DA392BB270EFF015ABA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C6F79E75FD6EA6853FF7218A /* Pods-SEFilterControl-ProgressColor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEFilterControl-ProgressColor_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SEFilterControl-ProgressColor_Tests/Pods-SEFilterControl-ProgressColor_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E01233BFEF1AA130D38E5207 /* Pods-SEFilterControl-ProgressColor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEFilterControl-ProgressColor_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SEFilterControl-ProgressColor_Tests/Pods-SEFilterControl-ProgressColor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +117,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BE6E7EF1E66EF2D00092133 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				3BE6E7F01E66EF2D00092133 /* Sample1ViewController.h */,
+				3BE6E7F11E66EF2D00092133 /* Sample1ViewController.m */,
+				3BE6E7F21E66EF2D00092133 /* Sample1ViewController.xib */,
+				3BE6E7F31E66EF2D00092133 /* Sample2ViewController.h */,
+				3BE6E7F41E66EF2D00092133 /* Sample2ViewController.m */,
+				3BE6E7F51E66EF2D00092133 /* Sample2ViewController.xib */,
+				3BE6E7F61E66EF2D00092133 /* Sample3ViewController.h */,
+				3BE6E7F71E66EF2D00092133 /* Sample3ViewController.m */,
+				3BE6E7F81E66EF2D00092133 /* Sample3ViewController.xib */,
+				3BE6E7F91E66EF2D00092133 /* Sample4ViewController.h */,
+				3BE6E7FA1E66EF2D00092133 /* Sample4ViewController.m */,
+				3BE6E7FB1E66EF2D00092133 /* Sample4ViewController.xib */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,11 +173,12 @@
 		6003F593195388D20070C39A /* Example for SEFilterControl-ProgressColor */ = {
 			isa = PBXGroup;
 			children = (
+				3BE6E7EF1E66EF2D00092133 /* Samples */,
 				6003F59C195388D20070C39A /* SEAppDelegate.h */,
 				6003F59D195388D20070C39A /* SEAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* SEViewController.h */,
 				6003F5A6195388D20070C39A /* SEViewController.m */,
+				3BE6E8041E66F05800092133 /* SEViewController.xib */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -148,6 +190,7 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3BE6E8061E66F0EE00092133 /* Samples.plist */,
 				6003F595195388D20070C39A /* SEFilterControl-ProgressColor-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -247,9 +290,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = SE;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = aligermiyanoglu;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ZTRHHTTEX2;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -279,9 +325,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				3BE6E7FD1E66EF2D00092133 /* Sample1ViewController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				3BE6E8011E66EF2D00092133 /* Sample3ViewController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				3BE6E8051E66F05800092133 /* SEViewController.xib in Resources */,
+				3BE6E8071E66F0EE00092133 /* Samples.plist in Resources */,
+				3BE6E7FF1E66EF2D00092133 /* Sample2ViewController.xib in Resources */,
+				3BE6E8031E66EF2D00092133 /* Sample4ViewController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +445,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE6E8021E66EF2D00092133 /* Sample4ViewController.m in Sources */,
+				3BE6E7FC1E66EF2D00092133 /* Sample1ViewController.m in Sources */,
+				3BE6E7FE1E66EF2D00092133 /* Sample2ViewController.m in Sources */,
+				3BE6E8001E66EF2D00092133 /* Sample3ViewController.m in Sources */,
 				6003F59E195388D20070C39A /* SEAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SEViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -459,14 +514,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -499,13 +559,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -524,6 +589,7 @@
 			baseConfigurationReference = 14FAD30BDB8DD895A5A153C2 /* Pods-SEFilterControl-ProgressColor_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZTRHHTTEX2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SEFilterControl-ProgressColor/SEFilterControl-ProgressColor-Prefix.pch";
 				INFOPLIST_FILE = "SEFilterControl-ProgressColor/SEFilterControl-ProgressColor-Info.plist";
@@ -539,6 +605,7 @@
 			baseConfigurationReference = 0F72A63C9B1E2B53AEBD1D39 /* Pods-SEFilterControl-ProgressColor_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZTRHHTTEX2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SEFilterControl-ProgressColor/SEFilterControl-ProgressColor-Prefix.pch";
 				INFOPLIST_FILE = "SEFilterControl-ProgressColor/SEFilterControl-ProgressColor-Info.plist";
