@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-    Thanks you Shady Elyaski for your amazing library.
+    Thanks you Shady Elyaski for your contribution to open source community. This library is a modified version of https://github.com/ShadyElyaski/ios-filter-control. Minor customization to show different color with background
                        DESC
 
   s.homepage         = 'https://github.com/aligermiyanoglu/SEFilterControl-ProgressColor'
