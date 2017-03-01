@@ -32,8 +32,6 @@
 @property (nonatomic, strong) IBInspectable UIColor      *handlerShadowColor;
 @property (nonatomic, assign) IBInspectable BOOL          handlerShadow;
 
-@property (nonatomic) CGRect    progressRect;
-@property (nonatomic) CGFloat   originalWidth;
 
 @property (nonatomic, strong) SEFilterProgressView *progressView;
 @property (nonatomic, strong) SEFilterProgressView *progressBGView;
@@ -101,6 +99,20 @@
     }
 
     return self;
+}
+
+
+- (void)setFrame:(CGRect)frame;
+{
+    [super setFrame:frame];
+    
+    [self configureProgressView:self.titlesCount];
+}
+
+- (void)setBounds:(CGRect)bounds {
+    [super setBounds:bounds];
+    
+    [self configureProgressView:self.titlesCount];
 }
 
 - (id)initWithFrame:(CGRect) frame titles:(NSArray *) titles labels:(NSArray *) labels{
